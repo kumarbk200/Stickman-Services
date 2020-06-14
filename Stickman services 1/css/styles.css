@@ -37,6 +37,8 @@ li{
     list-style: none;
 }
 
+/* -----------------HEADER---------------- */
+
 header{
     background: #001e57;
 }
@@ -582,6 +584,7 @@ header{
     *{
         height: auto;
     }
+    /* ------------HEADER---------------- */
 
     .top-header div span{
         display: none;
@@ -591,6 +594,7 @@ header{
         float: right;
         margin-left: 20px;
     }
+    /* ------------NAVBAR------------------- */
     .navbar-nav{
         width: 100%;
     }
@@ -612,6 +616,8 @@ header{
         color: white!important;
         background: #7ba149;
     }
+
+    /* --------------CAROUSEL---------------- */
 
     .carousel-control-prev,.carousel-control-next{
         display: none;
