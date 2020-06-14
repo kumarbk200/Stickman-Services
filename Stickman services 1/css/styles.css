@@ -95,7 +95,7 @@ header{
 
 .nav-container{
     padding:0!important;
-    height: 120px;
+    height: 100px;
 }
 .navbar-brand{
     z-index: 100!important;
@@ -639,10 +639,10 @@ header{
 
 
     .box-content h1{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
     .box-content p{
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-top: 10px;
     }
     .line1{
@@ -650,7 +650,7 @@ header{
         height: 8px;
     }
     .line2{
-        height: 200px;
+        height: 170px;
         width: 8px;
     }
     .line3{
@@ -660,6 +660,10 @@ header{
     .line3::before{
         width: 90px;
         height: 8px;   
+    }
+    .learn-button{
+        padding: 10px 20px 10px 20px;
+        font-size: 0.8rem;
     }
 
     /*-------SECOND SECTION--------  */
@@ -675,17 +679,19 @@ header{
         width: 100%!important;
     }
 
+    .middle-col{
+        border: none;
+        border-top: 1px solid lightgrey !important;
+        border-bottom: 1px solid lightgrey !important;
+    }
     .shifting-table .row .col-lg h1{
-        border-top: 1px solid lightgrey;
         padding-top: 10px;
     }
     #top-row{
         border: none;
         padding: 0;
     }
-    .middle-col{
-        border: none!important;
-    }
+
     .image-container{
         padding-top: 30px;
     }
