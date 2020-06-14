@@ -385,6 +385,13 @@ header{
     background: #f3f5f9;
     border-bottom: 3px solid #011f58;
     position: relative;
+    
+}
+.cards h5{
+    transition: 0.3s;
+}
+.cards:hover h5{
+    transform: scale(1.3);
 }
 .next-btn{
     position: absolute;
@@ -590,7 +597,7 @@ header{
 
 }
 
-@media(max-width:768px){
+@media(max-width:992px){
 
     *{
         height: auto;
@@ -633,16 +640,12 @@ header{
     .carousel-control-prev,.carousel-control-next{
         display: none;
     }
-    .carousel-icon{
-        display: none!important;
-    }
-
 
     .box-content h1{
-        font-size: 2.1rem;
+        font-size: 3rem;
     }
     .box-content p{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 10px;
     }
     .line1{
@@ -650,7 +653,7 @@ header{
         height: 8px;
     }
     .line2{
-        height: 170px;
+        height: 230px;
         width: 8px;
     }
     .line3{
@@ -662,8 +665,8 @@ header{
         height: 8px;   
     }
     .learn-button{
-        padding: 10px 20px 10px 20px;
-        font-size: 0.8rem;
+        padding: 10px 30px 10px 30px;
+        font-size: 1rem;
     }
 
     /*-------SECOND SECTION--------  */
@@ -739,5 +742,41 @@ header{
         text-align: center;
         display: block;
     }
+}
+
+@media (max-width:768px){
+    .carousel-icon{
+        display: none!important;
+    }
+
+
+    .box-content h1{
+        font-size: 2.1rem;
+    }
+    .box-content p{
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+    .line1{
+        width: 200px;
+        height: 8px;
+    }
+    .line2{
+        height: 170px;
+        width: 8px;
+    }
+    .line3{
+        width: 90px;
+        height: 8px;
+    }
+    .line3::before{
+        width: 90px;
+        height: 8px;   
+    }
+    .learn-button{
+        padding: 10px 20px 10px 20px;
+        font-size: 0.8rem;
+    }
+
 }
 
