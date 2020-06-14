@@ -315,15 +315,26 @@ header{
     left: 0;
 
 }
-.table-of-3 .container .shifting-table .row .col-lg{
+.shifting-table .row .col-lg{
     text-align: center;
     padding: 10px 30px 10px 30px;
+    transition: 0.3s;
+}
+
+.shifting-table .row .col-lg:hover{
+    background: #8cb654;
+    color: white;
+}
+.shifting-table .row .col-lg:hover h1{
+    color: white;
 }
 
 .shifting-table .row .col-lg h1{
+    transition: 0.3s;
     color: #8cb654;
     font-weight: lighter;
 }
+
 
 .shifting-table .row .col-lg p{
     font-weight: 500;
